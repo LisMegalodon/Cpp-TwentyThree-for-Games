@@ -55,22 +55,22 @@ int main()
 	else
 		messageOption = 3;
 
-
+	//ADVANCED
 	switch (messageOption) {
-		case 1:
-			std::cout << "\nHello " << name
-					  << ", you are only " << age 
-					  << " years old." << std::endl;
-			break;
-		case 2:
-			std::cout << "\nHello " << name
-					  << ", you are already " << age 
-					  << " years old." << std::endl;
-			break;
-		case 3:
-			std::cout << "\nHello " << name
-					  << ".You are very wise for your age" << std::endl;
-			break;
+	case 1:
+		std::cout << "\nHello " << name
+			<< ", you are only " << age
+			<< " years old." << std::endl;
+		break;
+	case 2:
+		std::cout << "\nHello " << name
+			<< ", you are already " << age
+			<< " years old." << std::endl;
+		break;
+	case 3:
+		std::cout << "\nHello " << name
+			<< ".You are very wise for your age" << std::endl;
+		break;
 	}
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
