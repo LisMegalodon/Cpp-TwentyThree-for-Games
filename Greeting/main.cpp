@@ -6,7 +6,7 @@
 
 using std::string;
 
-//FUNCTION
+//FUNCTION - Checks for digits in a string.
 bool isNumber(const string& input) {
 	if (input.empty())
 		return false;
@@ -72,6 +72,7 @@ int main()
 			<< ".You are very wise for your age" << std::endl;
 		break;
 	}
+	//IGNORES previous input
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 	//MESSAGE prior to exiting
